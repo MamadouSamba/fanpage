@@ -17,3 +17,27 @@ a {
     width: 30px;
     margin: 15px;
 }
+.navbar{
+    display:flex;
+    justify-content:space-around;
+}
+.header{
+    display:flex;
+    justify-content:center;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+}
+.aboutMain{
+    display:flex;
+    width:33%;
+}
+.leftPane{
+    display:flex;
+    width:33%;
+}
+.rightPane{
+    display:flex;
+    width:34%;
+}
