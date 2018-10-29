@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    background-color: black
 }
 
 body {
@@ -8,6 +9,7 @@ body {
 }
 a {
     text-decoration: none;
+    color:red;
 }
 
 .main {
@@ -20,10 +22,17 @@ a {
 .navbar{
     display:flex;
     justify-content:space-around;
+    
 }
 .header{
     display:flex;
     justify-content:center;
+    color:grey;
+    margin:10px;
+    font-weight:bold;
+    font-family:'Quattrocento Sans', sans-serif;
+    
+    
 }
 .footer{
     display:flex;
@@ -31,11 +40,12 @@ a {
 }
 .aboutMain{
     display:flex;
-    width:33%;
+    width:50%;
+    
 }
 .leftPane{
     display:flex;
-    width:33%;
+    
 }
 .rightPane{
     display:flex;
